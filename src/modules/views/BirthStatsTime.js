@@ -4,9 +4,11 @@ import Grid from "@mui/material/Grid";
 import Container from "@mui/material/Container";
 import Typography from "../components/Typography";
 // Icons
-import TodayIcon from "@mui/icons-material/Today";
-import CalendarMonthIcon from "@mui/icons-material/CalendarMonth";
-import DateRangeIcon from "@mui/icons-material/DateRange";
+import {
+  PlantTestTube,
+  HandHoldingPlant,
+  HeartPlant,
+} from "@vectopus/atlas-icons-react";
 // MomentJS
 import moment from "moment";
 
@@ -17,9 +19,6 @@ const gridItem = {
   alignItems: "center",
   px: 5,
 };
-
-// Icon Config
-const iconSize = 66;
 
 // Moment Variables
 let now = moment(new Date());
@@ -49,7 +48,7 @@ function BirthStatsTime() {
           variant="h4"
           marked="center"
           component="h2"
-          sx={{ mb: 10, flex: "0 0 100%", textAlign: "center", color: "white" }}
+          sx={{ mb: 7, flex: "0 0 100%", textAlign: "center", color: "white" }}
         >
           Look at me grow!
         </Typography>
@@ -60,24 +59,36 @@ function BirthStatsTime() {
         >
           <Grid item xs={10} md={4}>
             <Box sx={gridItem}>
-              <TodayIcon sx={{ fontSize: iconSize }} />
-              <Typography variant="h4" sx={{ my: 3, color: "white" }}>
+              <PlantTestTube size={40} weight="bold" />
+              <Typography
+                variant="h4"
+                component="h4"
+                sx={{ my: 2, color: "white", textAlign: "center" }}
+              >
                 {`${years} Years Old`}
               </Typography>
             </Box>
           </Grid>
           <Grid item xs={10} md={4}>
             <Box sx={gridItem}>
-              <CalendarMonthIcon sx={{ fontSize: iconSize }} />
-              <Typography variant="h4" sx={{ my: 3, color: "white" }}>
+              <HandHoldingPlant size={40} weight="bold" />
+              <Typography
+                variant="h4"
+                component="h4"
+                sx={{ my: 2, color: "white", textAlign: "center" }}
+              >
                 {`${months} Months Old`}
               </Typography>
             </Box>
           </Grid>
           <Grid item xs={10} md={4}>
             <Box sx={gridItem}>
-              <DateRangeIcon sx={{ fontSize: iconSize }} />
-              <Typography variant="h4" sx={{ my: 3, color: "white" }}>
+              <HeartPlant size={40} weight="bold" />
+              <Typography
+                variant="h4"
+                component="h4"
+                sx={{ my: 2, color: "white", textAlign: "center" }}
+              >
                 {`${days} Days Old`}
               </Typography>
             </Box>

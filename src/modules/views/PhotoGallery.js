@@ -2,6 +2,7 @@ import Fancybox from "../components/Fancybox";
 import Box from "@mui/material/Box";
 import Container from "@mui/material/Container";
 import Masonry from "@mui/lab/Masonry";
+import Typography from "../components/Typography";
 
 const settings = {
   baseURL: "https://res.cloudinary.com/dszumgqlp/image/upload/v1675458557/",
@@ -27,6 +28,30 @@ function PhotoGallery() {
           justifyContent: "center",
         }}
       >
+        <Typography
+          variant="h5"
+          component="p"
+          sx={{
+            mb: 1,
+            flex: "0 0 100%",
+            textAlign: "center",
+            fontWeight: "normal",
+          }}
+        >
+          Some cute pictures of me.
+        </Typography>
+        <Typography
+          variant="h5"
+          component="p"
+          sx={{
+            mb: 4,
+            flex: "0 0 100%",
+            textAlign: "center",
+            fontWeight: "normal",
+          }}
+        >
+          Click to Enlarge.
+        </Typography>
         <Box
           sx={{
             width: "80%",
