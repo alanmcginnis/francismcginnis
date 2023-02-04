@@ -1,25 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
+import Hero from "./modules/views/Hero";
+import BirthStats from "./modules/views/BirthStats";
+import BirthStatsTime from "./modules/views/BirthStatsTime";
+import withRoot from "./modules/withRoot";
+import "./App.css";
 
-function App() {
+function Index() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Hero />
+      <BirthStatsTime />
+      <BirthStats />
+    </>
   );
 }
 
-export default App;
+export default withRoot(Index);
