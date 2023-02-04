@@ -1,4 +1,4 @@
-import Fancybox from "./modules/components/Fancybox";
+import Fancybox from "../components/Fancybox";
 import Box from "@mui/material/Box";
 import Masonry from "@mui/lab/Masonry";
 
