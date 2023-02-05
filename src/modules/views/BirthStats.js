@@ -63,7 +63,7 @@ function BirthStats() {
                 component="h4"
                 sx={{ my: 2, textAlign: "center" }}
               >
-                5:37 A.M
+                08/12/2021 @ 5:37 A.M
               </Typography>
             </Box>
           </Grid>
