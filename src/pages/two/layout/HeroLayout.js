@@ -6,7 +6,7 @@ import Container from "@mui/material/Container";
 import Box from "@mui/material/Box";
 
 const HeroLayoutRoot = styled("section")(({ theme }) => ({
-  color: theme.palette.common.white,
+  color: theme.palette.common.black,
   position: "relative",
   display: "flex",
   alignItems: "center",
@@ -43,7 +43,7 @@ function HeroLayout(props) {
         }}
       >
         {children}
-        <Box
+        {/* <Box
           sx={{
             position: "absolute",
             left: 0,
@@ -51,10 +51,10 @@ function HeroLayout(props) {
             top: 0,
             bottom: 0,
             backgroundColor: "common.black",
-            opacity: 0.5,
+            opacity: 0.2,
             zIndex: -1,
           }}
-        />
+        /> */}
         <Background sx={sxBackground} />
         <Box
           component="img"

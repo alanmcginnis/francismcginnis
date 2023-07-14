@@ -1,23 +1,21 @@
 import Typography from "../../modules/components/Typography";
 import HeroLayout from "./layout/HeroLayout";
 
-const backgroundImage = "./static/TwoHero.jpg";
+// const backgroundImage = "./static/TwoHero.jpg";
 
 export default function ProductHero() {
   return (
     <HeroLayout
       sxBackground={{
-        backgroundImage: `url(${backgroundImage})`,
-        backgroundColor: "#7fc7d9", // Average color of the background image.
-        backgroundPosition: "center",
+        backgroundColor: "#feb913", // Average color of the background image.
       }}
     >
       {/* Increase the network loading priority of the background image. */}
-      <img
+      {/* <img
         style={{ display: "none" }}
         src={backgroundImage}
         alt="increase priority"
-      />
+      /> */}
       <Typography color="inherit" align="center" variant="h2" marked="center">
         Hi Friends 👋
       </Typography>
