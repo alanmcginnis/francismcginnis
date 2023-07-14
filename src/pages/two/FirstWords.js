@@ -32,17 +32,14 @@ function BirthStats() {
           }}
         >
           <Typography variant="h4" component="span">
-            My First Words
+            RSVP
           </Typography>
         </Box>
         <Typography
           variant="h4"
           component="p"
           sx={{ textAlign: "center", fontWeight: "normal" }}
-        >
-          Daddy, Hot, Up, Owl, Taco, No, Apple, Uh-oh, Cracker, Mama, Help,
-          Cora, Leo, Bye Bye, Coal, Papa, Nana, Night Night, Pizza.
-        </Typography>
+        ></Typography>
       </Container>
     </Box>
   );
