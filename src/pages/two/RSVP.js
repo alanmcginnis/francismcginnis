@@ -2,22 +2,30 @@
 import Box from "@mui/material/Box";
 import Container from "@mui/material/Container";
 import Typography from "../../modules/components/Typography";
+import Form from "./Form";
 
-function BirthStats() {
+function RSVP() {
   return (
     <Box
       className="first-words"
       component="section"
-      sx={{ display: "flex", overflow: "hidden", backgroundColor: "#fff5f8" }}
+      sx={{
+        display: "flex",
+        overflow: "hidden",
+        backgroundColor: "#E7E5DF",
+      }}
     >
       <Container
         sx={{
           mt: 8,
           mb: 8,
           display: "flex",
+          flexDirection: "column",
           flexWrap: "wrap",
           position: "relative",
           justifyContent: "center",
+          textAlign: "center",
+          alignItems: "center",
         }}
       >
         <Box
@@ -28,21 +36,19 @@ function BirthStats() {
             textAlign: "center",
             py: 2,
             px: 5,
-            mb: 6,
+            mb: 10,
+            maxWidth: "200px",
+            // margin: "0 auto",
           }}
         >
           <Typography variant="h4" component="span">
             RSVP
           </Typography>
         </Box>
-        <Typography
-          variant="h4"
-          component="p"
-          sx={{ textAlign: "center", fontWeight: "normal" }}
-        ></Typography>
+        <Form />
       </Container>
     </Box>
   );
 }
 
-export default BirthStats;
+export default RSVP;

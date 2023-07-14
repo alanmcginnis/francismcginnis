@@ -1,3 +1,4 @@
+import { GiMineTruck } from "react-icons/gi";
 import Typography from "../../modules/components/Typography";
 import HeroLayout from "./layout/HeroLayout";
 
@@ -7,15 +8,9 @@ export default function ProductHero() {
   return (
     <HeroLayout
       sxBackground={{
-        backgroundColor: "#feb913", // Average color of the background image.
+        backgroundColor: "#e7bb41", // Average color of the background image.
       }}
     >
-      {/* Increase the network loading priority of the background image. */}
-      {/* <img
-        style={{ display: "none" }}
-        src={backgroundImage}
-        alt="increase priority"
-      /> */}
       <Typography color="inherit" align="center" variant="h2" marked="center">
         Hi Friends 👋
       </Typography>
@@ -37,6 +32,12 @@ export default function ProductHero() {
       >
         There is a $5.00 parking fee but the FOOD, FUN, and SUN are all free!
         Don't forget your change of clothes/swim diapers.
+      </Typography>
+      <Typography variant="h4" component="span" sx={{ mb: 4, mt: { sm: 4 } }}>
+        No Gifts Please 🙏
+      </Typography>
+      <Typography variant="h4" component="span" sx={{ fontSize: "48px" }}>
+        <GiMineTruck />
       </Typography>
     </HeroLayout>
   );

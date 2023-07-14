@@ -1,5 +1,6 @@
 import Hero from "./two/Hero";
-import FirstWords from "./two/FirstWords";
+import RSVP from "./two/RSVP";
+import Details from "./two/Details";
 import withRoot from "../modules/withRoot";
 import "../App.css";
 
@@ -7,7 +8,8 @@ function TwoBirthday() {
   return (
     <>
       <Hero />
-      <FirstWords />
+      <RSVP />
+      <Details />
     </>
   );
 }
