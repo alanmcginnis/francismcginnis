@@ -30,8 +30,9 @@ export default function ProductHero() {
         variant="h5"
         // sx={{ mb: 4, mt: { sm: 2 } }}
       >
-        There is a $5.00 parking fee but the FOOD, FUN, and SUN are all free!
-        Don't forget your change of clothes/swim diapers.
+        There is a $5.00 parking fee but the <strong>FOOD, FUN, and SUN</strong>{" "}
+        are all <strong>FREE</strong>! Don't forget your change of clothes/swim
+        diapers.
       </Typography>
       <Typography variant="h4" component="span" sx={{ mb: 4, mt: { sm: 4 } }}>
         No Gifts Please 🙏
