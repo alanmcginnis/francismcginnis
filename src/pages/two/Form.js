@@ -42,7 +42,7 @@ export default function Form() {
       <TextField
         id="parent"
         name="parent"
-        label="Your name? (Parent)"
+        label="Parent(s) Name?"
         onChange={handleChange}
         required
         variant="outlined"

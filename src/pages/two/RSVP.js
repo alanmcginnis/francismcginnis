@@ -8,6 +8,7 @@ function RSVP() {
   return (
     <Box
       className="first-words"
+      id="rsvp"
       component="section"
       sx={{
         display: "flex",

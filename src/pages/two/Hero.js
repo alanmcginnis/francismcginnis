@@ -40,8 +40,11 @@ export default function ProductHero() {
         component="span"
         sx={{ textAlign: "center", mb: 4, mt: 4 }}
       >
-        <strong>Please RSVP below.</strong> Text Alan @ 816.559.1915 if you have
-        questions or get lost day of. Keep this invite in your car.
+        <strong>
+          <a href="#rsvp">Please RSVP below.</a>
+        </strong>{" "}
+        Text Alan @ 816.559.1915 if you have questions or get lost day of. Keep
+        this invite in your car.
       </Typography>
       <Typography
         variant="h4"
