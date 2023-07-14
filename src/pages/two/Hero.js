@@ -23,7 +23,7 @@ export default function ProductHero() {
       >
         I'm having a <strong>BIRTHDAY PARTY</strong> on{" "}
         <strong>AUG. 12, 2023</strong> from <strong>11A-2P</strong> and{" "}
-        <strong>YOUR INVITED</strong>!
+        <strong>YOU'RE INVITED</strong>!
       </Typography>
       <Typography
         color="inherit"
