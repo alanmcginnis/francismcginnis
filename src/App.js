@@ -1,20 +1,16 @@
-import Hero from "./modules/views/Hero";
-import BirthStatsTime from "./modules/views/BirthStatsTime";
-import BirthStats from "./modules/views/BirthStats";
-import FirstWords from "./modules/views/FirstWords";
-import PhotoGallery from "./modules/views/PhotoGallery";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import withRoot from "./modules/withRoot";
-import "./App.css";
+import Home from "./pages/Home";
+import TwoBirthday from "./pages/TwoBirthday";
 
 function Index() {
   return (
-    <>
-      <Hero />
-      <BirthStatsTime />
-      <BirthStats />
-      <FirstWords />
-      <PhotoGallery />
-    </>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/two" element={<TwoBirthday />} />
+      </Routes>
+    </Router>
   );
 }
 

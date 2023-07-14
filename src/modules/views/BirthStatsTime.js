@@ -36,12 +36,15 @@ function BirthStatsTime() {
       sx={{ display: "flex", overflow: "hidden" }}
     >
       <Container
+        className="birth-stats-time"
+        component="section"
         sx={{
           mt: 8,
           mb: 8,
           display: "flex",
           flexWrap: "wrap",
-          position: "relative",
+          // position: "relative",
+          overflow: "hidden",
         }}
       >
         <Typography
