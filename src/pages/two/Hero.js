@@ -31,11 +31,23 @@ export default function ProductHero() {
         variant="h5"
         // sx={{ mb: 4, mt: { sm: 2 } }}
       >
-        There is a $5.00 parking fee but the <strong>FOOD, FUN, and SUN</strong>{" "}
-        are all <strong>FREE</strong>! Don't forget your change of clothes/swim
-        diapers.
+        <strong>Blue Lake Regional Park</strong> - There is a $5.00 parking fee
+        but the <strong>FOOD, FUN, and SUN</strong> are all{" "}
+        <strong>FREE</strong>! Don't forget your change of clothes/swim diapers.
       </Typography>
-      <Typography variant="h4" component="span" sx={{ mb: 4, mt: { sm: 4 } }}>
+      <Typography
+        variant="h5"
+        component="span"
+        sx={{ textAlign: "center", mb: 4, mt: 4 }}
+      >
+        <strong>Please RSVP below.</strong> Text Alan @ 816.559.1915 if you have
+        questions or get lost day of. Keep this invite in your car.
+      </Typography>
+      <Typography
+        variant="h4"
+        component="span"
+        sx={{ textAlign: "center", mb: 4, mt: 4 }}
+      >
         No Gifts Please 🙏
       </Typography>
       <Typography variant="h4" component="span" sx={{ fontSize: "48px" }}>
