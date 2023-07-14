@@ -8,7 +8,8 @@ export default function ProductHero() {
   return (
     <HeroLayout
       sxBackground={{
-        backgroundColor: "#e7bb41", // Average color of the background image.
+        backgroundColor: "#e7bb41",
+        textAlign: "center", // Average color of the background image.
       }}
     >
       <Typography color="inherit" align="center" variant="h2" marked="center">

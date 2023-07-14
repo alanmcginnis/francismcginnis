@@ -51,7 +51,8 @@ function Details() {
         <Container
           sx={{
             display: "flex",
-            justifyContent: "space-evenly",
+            flexDirection: "column",
+            alignItems: "center",
           }}
         >
           <Button
@@ -68,6 +69,7 @@ function Details() {
             variant="outlined"
             size="medium"
             role="link"
+            sx={{ mt: 2 }}
             onClick={() =>
               openInNewTab(
                 "https://www.oregonmetro.gov/sites/default/files/2016/06/13/Shahala-Shelter-A.pdf"
