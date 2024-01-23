@@ -6,7 +6,7 @@ import CssBaseline from "@mui/material/CssBaseline";
 // Material Kit 2 PRO React themes
 // import theme from "./assets/theme";
 import Home from "./pages/Home";
-import TwoBirthday from "./pages/TwoBirthday";
+// import TwoBirthday from "./pages/TwoBirthday";
 
 function Index() {
   return (
@@ -15,7 +15,7 @@ function Index() {
       <Router>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/two" element={<TwoBirthday />} />
+          {/* <Route path="/two" element={<TwoBirthday />} /> */}
         </Routes>
       </Router>
     </>
